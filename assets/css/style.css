@@ -1427,14 +1427,14 @@ section {
   }
 
 .profile-img {
-    max-width: 70%;
+    max-width: 100%;
     height: auto;
 }
 
 .awards-container {
   padding: 0 40px; /* Adjust the padding as per your preference */
   margin: 0 auto; /* Center the container on the screen */
-  max-width: 1200px; /* Set a maximum width for the container */
+  max-width: 900px; /* Set a maximum width for the container */
 }
 
 .education-logo {
@@ -1442,7 +1442,7 @@ section {
   height: 200px; /* Adjust the height as per your preference */
 }
 .About {
-  padding-right: 15px; /* Adjust the padding as per your preference */
+  padding-right: 5px; /* Adjust the padding as per your preference */
 }
 .btn-lg {
   padding: 6px 12px;
@@ -1452,4 +1452,8 @@ section {
 .Contact {
   padding-left: 40px;
   /* You can adjust the padding value as per your preference */
+}
+.img-fluid {
+  width: 50px !important;
+  height: 50px !important;
 }
